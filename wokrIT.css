@@ -1,0 +1,11 @@
+body {
+  margin: 0 auto;
+  background-color: #24053e;
+  box-sizing: border-box;
+  max-width: 1000px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}

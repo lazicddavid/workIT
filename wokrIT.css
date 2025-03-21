@@ -1,20 +1,19 @@
 body {
-  background-color: #24053e;
-
   box-sizing: border-box;
 }
 
 .container1 {
-  margin: 0 auto;
-  max-width: 1000px;
   background-color: #24053e;
 }
 
 header {
+  margin: 0 auto;
+  max-width: 1000px;
   background-color: #24053e;
   color: white;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 h3 a {
@@ -33,11 +32,11 @@ u {
 }
 
 .btn {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
 
-.button {
+.btn,
+.btn2 {
   font-size: large;
   font-weight: bold;
   padding: 20px 30px;
@@ -46,7 +45,8 @@ u {
   background-color: #44ffa1;
 }
 
-.button:hover {
+.btn:hover,
+.btn2:hover {
   background-color: #24053e;
   color: #44ffa1;
   cursor: pointer;
@@ -55,7 +55,6 @@ u {
 
 img {
   margin: 50px;
-
   display: flex;
   justify-self: center;
   width: 500px;
@@ -110,4 +109,55 @@ img {
   width: 80px;
   height: 80px;
   border-radius: 50px;
+}
+
+.end-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: relative;
+  height: 100vh;
+}
+
+.end-section img {
+  max-width: 400px;
+  height: auto;
+}
+
+.end-title {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  transform: translateY(50%);
+  transform: translateX(10%);
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: medium;
+  line-height: 1.4;
+  padding: 30px;
+  color: white;
+  background-color: #24053e;
+
+  text-align: left;
+  width: 400px;
+  height: 250px;
+  border: 1px solid black;
+}
+
+.footer-title h2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: white;
+  margin: 30px 0;
+}
+
+.icons {
+  margin: 20px auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
 }
